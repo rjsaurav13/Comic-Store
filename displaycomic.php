@@ -5,15 +5,23 @@ require __DIR__ . '/Comicintegration.php';
 <html>
 <head>
     <title> Comic Store </title>
-    <link rel='stylesheet' href='CSS/style.css'>
+    <link rel='stylesheet' href='assest/style.css'>
 </head>
 
 <body>
-    <h2><?php echo $heaing; ?></h2>
-    <img src="<?php echo $image; ?>" alt='$title' />
-    <br>
-    <p>Register Here </p>
-    <a href='/' class='validate'>Click Here</a>
+          <div class="login-box">
+  <form>
+  <div class="user-box">
+            <h2 style="color:white; text-align:center; font-size:30px;"><?php echo $heading; ?></h2>
+            <img style="margin-left: auto; margin-right: auto; height:180%; width:100%; display:block;" src="<?php echo $image; ?>" alt='$title' />
+            <p style="color:white; text-align:center; font-size:20px;">To Register </p>
+            <a href='/'  style="margin-left:24%" class='validate'>
+                <span></span>
+                Click Here
+            </a>
+          </div>
+        </form>
+      </div>
 
 </body>
 

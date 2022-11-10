@@ -12,18 +12,20 @@ $data = isset($_SESSION['data']) ? $_SESSION['data'] : '';
 <head>
     <link rel='stylesheet' href='assest/style.css'>
     <title><?php echo $heading; ?></title>
+
 </head>
 
 <body>
+
   <div class="login-box">
       <div id="logo"><img src="./images/logo.png" width="190px">
       </div>
       <h2><br></h2>
       <form>
           <div class="user-box">
-            <h1><?php echo $subject; ?></h1>
-            <p><?php echo $data; ?></p>
-            <a href='/' class='validate'>
+            <h1 style="color:white; text-align:center;"><?php echo $subject; ?></h1>
+            <p style="color:white; text-align:center;"><?php echo $data; ?></p>
+            <a href='/' style="margin-left:24%" class='validate'>
               <span></span>
               Click Here
             </a>

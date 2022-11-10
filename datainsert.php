@@ -1,6 +1,6 @@
 <?php
 session_start();
-require __DIR__ . '/Connections.php';
+require _DIR_ . '/Connections.php';
 /*
   * This Function sends verification email
 */
@@ -19,7 +19,7 @@ function authenticate($email, $verifytoken, $from, $fromName, $headers, $hostnam
             <head>
             <style>
                 h1 {
-                    color: #4CAF50;
+                    color: #03e9f4;
                     margin:3%;
                     text-align: center;
                 }
@@ -27,13 +27,11 @@ function authenticate($email, $verifytoken, $from, $fromName, $headers, $hostnam
 
                     text-align: center;
                 }
-                span {
-                    font-weight: bold;
-                }
+
                 .validate {
                     margin:0 auto;
                     display:block;
-                    background-color: #4CAF50;
+                    background-color: #03e9f4;
                     border: none;
                     color: white;
                     padding: 15px 32px;
@@ -49,12 +47,12 @@ function authenticate($email, $verifytoken, $from, $fromName, $headers, $hostnam
             </head>
             <body>
                 <h1>Comic Store</h1>
-                <h2>Verify Your Email Address</h2>
-                <p>Please confirm that you want to get <span>Comic Store</span> at your email address. Once verification done you will be getting the mails! </p>
+                <h2>Email Verification</h2>
+                <p>Please verify your email to get funny comics on your registered mail.</p>
                 <br>
-                <a href='$hostname/verification.php?token=$verifytoken' Class='validate'>Verify Account</a>
+                <a href='$hostname/saurav/verification.php?token=$verifytoken' Class='validate'>Verification</a>
             </body>
-            </head>
+            </html>
     ";
     $returnpath = "-f" . $from;
 

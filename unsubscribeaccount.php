@@ -16,7 +16,7 @@ if (isset($_GET['token'])) {
 
     if ($no_of_rows > 0) {
         $dquery = $con->prepare("DELETE from details WHERE Token=?");
-        $dquery->bind_param('s', $dquery);
+        $dquery->bind_param('s', $del_token);
         $dquery->execute();
         $dquery->close();
         $_SESSION['heading'] = 'Unsubscribe Account';

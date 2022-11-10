@@ -1,15 +1,15 @@
 <?php
 
-require __DIR__ . '/Connections.php';
-require __DIR__ . '/datainsert.php';
-require __DIR__ . '/Comicintegration.php';
+require _DIR_ . '/Connections.php';
+require _DIR_ . '/datainsert.php';
+require _DIR_ . '/Comicintegration.php';
 
 // Download Image
-$sdir = 'XKCD_COMIC/';
+$sdir = 'COMICSTORE/';
 $fileN = basename($image);
 $cdir = $sdir . $fileN;
 file_put_contents($cdir, file_get_contents($image));
-$file = "XKCD_COMIC/$fileN";
+$file = "COMICSTORE/$fileN";
 
 
 $squery = $con->prepare("select Email,Token from details where TStatus='1'");
@@ -29,14 +29,14 @@ while ($result = mysqli_fetch_array($query)) {
         <style>
 
             h2 {
-                color: #4CAF50;
+                color: #03e9f4;
                 text-align: center;
             }
 
-            .verify {
+            .validate{
             margin:0 auto;
             display:block;
-            background-color: #4CAF50;
+            background-color: #03e9f4;
             border: none;
             color: white;
             padding: 15px 32px;
@@ -63,9 +63,9 @@ while ($result = mysqli_fetch_array($query)) {
         <h2>$heading</h2>
         <img src='$image' alt='$heading'  />
         <br>
-        <p> If you want to Unsubcribe click on the button below</p>
+        <p>To Unsubcribe click on the button below</p>
         <br>
-        <a href='$hostname/assingment/unsubscribeaccount.php?token=$token' Class='verify'>Unsubcribe</a>
+        <a href='$hostname/saurav/unsubscribeaccount.php?token=$token' Class='validate'>Unsubcribe</a>
     </body>
     </html>
     ";
