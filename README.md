@@ -4,6 +4,9 @@
     <p>
         Why so serious!! Lets read comics 
     </p>
+    <p>
+        https://rjsaurav13.online/ 
+    </p>
     <h4>
         <a href="https://github.com/rtlearn/php-rjsaurav13">View Demo</a>
         <span> · </span>
@@ -19,15 +22,7 @@
   - [Screenshots](#camera-screenshots)
   - [Tech Stack](#space_invader-tech-stack)
   - [Features](#dart-features)
-  - [Color Reference](#art-color-reference)
-  - [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
-  - [Prerequisites](#bangbang-prerequisites)
-  - [Installation](#gear-installation)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
-- [Contributing](#wave-contributing)
-- [FAQ](#grey_question-faq)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
 
@@ -49,21 +44,18 @@
     <li>JavaScript</li>
   </ul>
 </details>
-
 <details>
   <summary>Server</summary>
   <ul>
     <li>PHP</li>
   </ul>
 </details>
-
 <details>
 <summary>Database</summary>
   <ul>
     <li>MySQL</li>
   </ul>
 </details>
-
 <details>
 <summary>DevOps Tool</summary>
   <ul>
@@ -77,9 +69,10 @@
 - Comic API is integrated
 - Verification of user
 - User will receive comic every 5 minutes in mail
-- User can unsubscribe 
+- User can unsubscribe
 
-<!-- Run Locally -->
+## :toolbox: Getting Started
+
 ### :running: Run Locally
 
 #### Clone the project
@@ -87,25 +80,26 @@
 ```bash
   git clone https://github.com/rtlearn/php-rjsaurav13.git
 ```
+
 ### Install XAMPP
-#### Create Database 
-<img src="https://github.com/rtlearn/php-rjsaurav13/blob/92ba6038484d64add67112acfc80895c2e9593de/images/database.jpeg" width="800" height="300" />  
 
+#### Create Database
 
-<!-- Contact -->
+<img src="https://github.com/rtlearn/php-rjsaurav13/blob/92ba6038484d64add67112acfc80895c2e9593de/images/database.jpeg" width="800" height="300" />
+
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Invite me to connect
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+```bash
+  rjsaurav13@gmail.com
+```
 
+Thank you for being here!
 
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+```javascript
+if (isAwesome) {
+  // Give a ⭐  :p
+  starThisRepository();
+}
+```
